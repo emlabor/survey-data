@@ -11,6 +11,7 @@ while add_survey == 'yes':
     survey["twitter"] = input("What's your twitter handle? ")
     #print(survey)
     surveys_by_name[survey["name"]] = survey
+    #print(surveys_by_name)
     add_survey = input("Would you like to add a survey response? (yes/no) ").lower()
 
 print("Thanks for your responses!")
